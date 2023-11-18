@@ -38,7 +38,7 @@ mvn --version
 
 ## Download Settings NXML
 sudo mkdir /var/lib/jenkins/.m2
-sudo wget https://raw.githubusercontent.com/awanmbandi/gcp-realworld-cicd-pipeline-project/maven-sonarqube-nexus-jenkins/settings.xml \
+sudo wget https://raw.githubusercontent.com/BROOKSGATE/gcp-realworld-cicd-pipeline-project/maven-sonarqube-nexus-jenkins/settings.xml \
 -P /var/lib/jenkins/.m2/
 sudo chown -R jenkins:jenkins /var/lib/jenkins/.m2/
 
